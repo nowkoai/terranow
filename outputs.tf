@@ -17,7 +17,7 @@ output "public_ip_address" {
   value = aws_instance.Server.*.public_ip
 }
 
-# EC2タグ/インスタンス名
-output "Names" {
-    value = aws_instance.Server[*].tags["Name"]
-}
+# # EC2タグ/インスタンス名
+# output "Names" {
+#     value = aws_instance.Server[*].tags["Name"]
+# }
