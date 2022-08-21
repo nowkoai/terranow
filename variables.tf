@@ -1,7 +1,7 @@
 ## インスタンスタイプ指定
 variable "instance_type" {
   description = "Type of EC2 instance to provision"
-  default = "t3.large"
+  default = "c1.medium"
 }
 
 # インスタンス名指定
