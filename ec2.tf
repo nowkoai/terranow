@@ -1,7 +1,7 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  count         = 2
+  count         = 1
   # count         = 10
 
   # インスタンス指定
@@ -23,6 +23,6 @@ resource "aws_instance" "Server" {
   # タグ指定
   tags = {
     # Name = "Server-${count.index}"
-    Name = "${var.instance_name}-${count.index}"
+    NameX = "${var.instance_name}-${count.index}"
   }
 }
