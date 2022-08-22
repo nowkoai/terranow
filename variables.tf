@@ -14,4 +14,5 @@ variable "instance_name" {
 variable "region" {
   description = "AWS region"
   default = "ap-northeast-1"
+  # default = "us-east-1"
 }
