@@ -4,7 +4,7 @@ resource "aws_instance" "Server" {
   count         = 1
 
   # インスタンス指定
-  ami           = "ami-0701e21c502689c31"
+  ami           = "ami-090fa75af13c156b4"
 
   instance_type = var.instance_type
 
