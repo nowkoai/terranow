@@ -5,10 +5,9 @@ resource "aws_instance" "Server" {
   # count         = 10
 
   # インスタンス指定
-  # ami           = "ami-0404778e217f54308"
   # Amazon Linux 2(ami-0701 e21c502689c31)から Ubuntu(ami-0df99b3a8349462c6)へ AMI を変更
-  ami           = "ami-0701e21c502689c31"
-  # ami           = "ami-0df99b3a8349462c6"
+  # ami           = "ami-0701e21c502689c31"
+  ami           = "ami-0df99b3a8349462c6"
 
   instance_type = var.instance_type
 

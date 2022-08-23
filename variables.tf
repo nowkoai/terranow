@@ -13,6 +13,6 @@ variable "instance_name" {
 # リージョン指定
 variable "region" {
   description = "AWS region"
-  default = "ap-northeast-1"
-  # default = "us-east-1"
+  # default = "ap-northeast-1"
+  default = "us-east-1"
 }
