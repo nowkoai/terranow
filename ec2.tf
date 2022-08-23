@@ -1,12 +1,9 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  # count         = 1
-  count         = 2
-  # count         = 10
+  count         = 1
 
   # インスタンス指定
-  # Amazon Linux 2(ami-0701 e21c502689c31)から Ubuntu(ami-0df99b3a8349462c6)へ AMI を変更
   # ami           = "ami-0701e21c502689c31"
   ami           = "ami-0df99b3a8349462c6"
 
