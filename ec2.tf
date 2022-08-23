@@ -1,7 +1,7 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  count         = 1
+  count         = 2
 
   # インスタンス指定
   ami           = "ami-07200fa04af91f087"
@@ -14,7 +14,7 @@ resource "aws_instance" "Server" {
   ]
 
   # WEBサーバ/Nginxのインストール
-  user_data = file("./userdata/demo.sh")
+  # user_data = file("./userdata/demo.sh")
 
   # タグ指定
   tags = {
