@@ -1,7 +1,8 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  count         = 1
+  # count         = 1
+  count         = 2
   # count         = 10
 
   # インスタンス指定
