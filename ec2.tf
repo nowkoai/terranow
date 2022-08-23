@@ -1,10 +1,10 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  count         = 2
+  count         = 1
 
   # インスタンス指定
-  ami           = "ami-07200fa04af91f087"
+  ami           = "ami-0f36dcfcc94112ea1"
 
   instance_type = var.instance_type
 
