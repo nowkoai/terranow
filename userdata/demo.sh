@@ -4,7 +4,7 @@ sudo yum install -y httpd
 
 cat << EOM > /var/www/html/index.html
 <html>
-  <head><title>HashiCat</title></head>
+  <head><title>デモ</title></head>
   <body>
     <div style="width:800px;margin: 0 auto">
       <center><img src="http://placekitten.com/600/400"></img></center>
