@@ -9,7 +9,7 @@ resource "aws_security_group" "example_ec2_sg" {
   }
 }
 
-# 外部→HTTP80ポートへの通信を許可
+# 外部→HTTP80ポートへの通信を許可-
 resource "aws_security_group_rule" "example_ec2_in_http" {
   security_group_id = aws_security_group.example_ec2_sg.id
   type              = "ingress"
