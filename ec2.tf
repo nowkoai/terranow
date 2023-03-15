@@ -1,7 +1,7 @@
 # EC2インスタンス
 resource "aws_instance" "Server" {
   # 起動インスタンス数
-  count         = 2
+  count         = 0
 
   # インスタンス指定
   ami           = "ami-0f36dcfcc94112ea1"
