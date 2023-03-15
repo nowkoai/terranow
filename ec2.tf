@@ -19,6 +19,6 @@ resource "aws_instance" "Server" {
 
   # タグ指定
   tags = {
-    Name = "${var.instance_name}-${count.index}"
+    Name2 = "${var.instance_name}-${count.index}"
   }
 }
