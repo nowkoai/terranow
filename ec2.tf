@@ -2,7 +2,7 @@
 resource "aws_instance" "Server" {
   # 起動インスタンス数
   # count         = 10
-  count         = 1
+  count         = 3
 
   # インスタンス指定
   ami           = "ami-0f36dcfcc94112ea1"
